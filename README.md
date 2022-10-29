@@ -42,4 +42,4 @@ print("Request HTTP GET "+r.url)
 print("Received HTTP GET response "+ r.text)
 
 
-![alt text](http://url/to/UML_mokshano.JPG)
+![alt text](https://github.com/mokolya/quotemicroservice/UML_mokshano.JPG)
