@@ -45,5 +45,6 @@ URL RESPONXE
 print("Request HTTP GET "+r.url)
 print("Received HTTP GET response "+ r.text)
 
+# UML Diagram
 
 ![alt text](https://github.com/mokolya/quotemicroservice/blob/main/UML_mokshano.JPG)
