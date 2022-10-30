@@ -1,13 +1,13 @@
-Random Quote API
+# Random Quote API
 
-About
+### About
 The API returns a random quote from quote.txt file.
 
-Instructions:
+# Instructions:
 
-Use Flask server
+### Use Flask server
 
-One time Set-up
+## One time Set-up
 
 1. Clone the Github repository to your local enviroment.
     i. In a terminal, navigate to the directory that contains quoteservice.py.
@@ -18,7 +18,7 @@ One time Set-up
 4. Use pip to instal dependencies.
     pip install -r requirments.txt
 
-Request data
+# Request data
 
 Start the Flask API server.
 
@@ -30,14 +30,18 @@ Start the Flask API server.
         Request HTTP GET http://127.0.0.1:5000/
         Recieved HTTP GET response Quote1
 
-Example Code to Request Data 
+# Example Code to Request Data 
 
 import requests
 
 url = r'http://127.0.0.1:5000'
-# GET Only
+
+GET Only
+
 r = requests.get(url)
-# URL, Response 
+
+URL RESPONXE 
+
 print("Request HTTP GET "+r.url)
 print("Received HTTP GET response "+ r.text)
 
